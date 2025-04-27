@@ -1,3 +1,7 @@
 setuptools
 wheel
 twine
+
+collections
+heapq
+math

@@ -1,5 +1,10 @@
-from .main import hello
-from .data_structures import LinkedList, Stack
+"""
+AlgoInfinite - A collection of algorithms and data structures in Python.
+"""
 
-# In data_structures/__init__.py
-__all__ = ['LinkedList', 'Stack',]
+from .main import hello
+from .data_structures import *
+from .algorithms import *
+
+__version__ = "0.2.0"
+__author__ = "Madan Mohan Behera"
